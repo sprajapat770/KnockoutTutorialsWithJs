@@ -1,0 +1,16 @@
+<div id="knockout-tutorials" class="knockout-tutorials" data-bind="scope:'kocomponent'">
+    The name is <span data-bind="text: personName"></span>
+</div>
+<script type="text/x-magento-init">
+	{
+		"#knockout-tutorials":{
+			"Magento_Ui/js/core/app":{
+				"components":{
+					"kocomponent":{
+						"component":"Magento_KnockoutJs/js/component"
+					}
+				}
+			}
+		}
+	}
+</script>
