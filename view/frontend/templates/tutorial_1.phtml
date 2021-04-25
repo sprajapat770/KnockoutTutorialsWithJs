@@ -1,5 +1,7 @@
 <div id="knockout-tutorials" class="knockout-tutorials" data-bind="scope:'kocomponent'">
-    The name is <span data-bind="text: personName"></span>
+    <p>The name and age is <span data-bind="text: personName() + ' ' +  personAge()"></span></p>
+    <p>The name is <span data-bind="text: personName"></span></p>
+    <p>The age is <span data-bind="text: personAge()"></span></p>
 </div>
 <script type="text/x-magento-init">
 	{
