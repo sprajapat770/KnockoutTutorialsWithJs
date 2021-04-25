@@ -1,0 +1,22 @@
+<div id="knockout-tutorials" class="knockout-tutorials" data-mage-init='{"Magento_KnockoutJs/js/component-2": {}}'>
+    The name is <span></span>
+</div>
+<h2 class="animate-title">This is a Suraj</h2>
+<button class="primary">Click Me</button>
+
+<script>
+    require([
+        'jquery',
+        'domReady!'
+    ], function ($) {
+        'use strict';
+
+        $('button.primary').on('click', function(){
+            $('.animate-title').animate({
+                height: '150px',
+                fontSize: '80px',
+                backgroundColor: '#ff6347'
+            }, 1000);
+        });
+    });
+</script>

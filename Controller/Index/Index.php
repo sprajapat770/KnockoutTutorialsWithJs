@@ -19,6 +19,5 @@ class Index extends Action
     public function execute()
     {
         return $this->_pageFactory->create();
-        // return $resultRedirect = $this->resultRedirectFactory->create();
     }
 }

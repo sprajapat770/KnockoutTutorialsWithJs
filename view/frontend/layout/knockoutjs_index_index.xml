@@ -9,6 +9,8 @@
     <body>
         <referenceContainer name="content">
             <block class="Magento\Framework\View\Element\Template" name="knockoutjs" template="Magento_KnockoutJs::tutorial_1.phtml"/>
+            <block class="Magento\Framework\View\Element\Template" name="knockoutjs.second" template="Magento_KnockoutJs::tutorial_2.phtml"/>
+            <block class="Magento\Framework\View\Element\Template" name="knockoutjs.third" template="Magento_KnockoutJs::tutorial_3.phtml"/>
         </referenceContainer>
     </body>
 </page>
