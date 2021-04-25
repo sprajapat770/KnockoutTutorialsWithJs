@@ -1,7 +1,8 @@
-define(['uiComponent'],function(Component){
+define(['uiComponent','ko'],function(Component,ko){
     'use strict';
 
     return Component.extend({
-        personName: "suraj"
+        personName: ko.observable('suraj'),
+        personAge: ko.observable(27)
     });
 });
